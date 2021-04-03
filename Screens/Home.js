@@ -67,6 +67,7 @@ const Home = () => {
             <Text style={{fontSize:16,color:"#585858",fontWeight:"bold",textAlign:'center'}}> 405 styles</Text>
         </View>
         <View style={{marginTop:10,marginLeft:10}}>
+        
         <FlatList
           numColumns={numColumns}
           horizontal={false}

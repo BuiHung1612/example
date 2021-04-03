@@ -19,21 +19,21 @@ const AppStack = () => {
             <Bottom.Navigator initialRouteName="Home" screenOptions={({route})=>({
                 tabBarIcon:({focused,color})=>{
                     let iconName;
-                    if(route.name="Home"){
-                        iconName="home"
+                    if(route.name==="Home"){
+                        iconName=focused?"home-outline":"home"
 
-                        return <Entypo name={iconName} size={25} color={"#000"}/>
-                    }
-                    else if(route.name="Wistlist"){
-                        iconName="heart-outline"
                         return <Ionicons name={iconName} size={25} color={"#000"}/>
                     }
-                    else if(route.name="Cart"){
-                        iconName="cart"
+                    else if(route.name==="Wistlist"){
+                        iconName=focused?"heart-outline":"heart"
                         return <Ionicons name={iconName} size={25} color={"#000"}/>
                     }
-                    else if(route.name="Me"){
-                        iconName="person"
+                    else if(route.name==="Cart"){
+                        iconName=focused?"cart-outline":"cart"
+                        return <Ionicons name={iconName} size={25} color={"#000"}/>
+                    }
+                    else if(route.name==="Me"){
+                        iconName=focused?"person-outline":"person"
                         return <Ionicons name={iconName} size={25} color={"#000"}/>
                     }
                     

@@ -1,52 +1,173 @@
 var data=[
     {
         id:1,
-        price:921,
+        price:921.100,
         subtitle:'Snake print Plugging',
         imgurl:"http://www.hauteinstinct.com/wp-content/uploads/2018/11/DSC00245-1080x1620.jpg",
-
+        imgdetail:[
+            {
+                id:1,
+                img:'https://i.pinimg.com/474x/bb/ed/9d/bbed9dc56d0fadbd4bb953fe1cd92f86.jpg'
+            },
+            {
+                id:2,
+                img:'https://img.freepik.com/free-photo/gorgeous-elegant-sensual-blonde-woman-wearing-fashion-black-dress_149155-246.jpg?size=626&ext=jpg'
+            },
+            {
+                id:3,
+                img:'https://previews.123rf.com/images/panicattack/panicattack1409/panicattack140900026/31462842-beautiful-woman-in-casual-clothes-thinking-full-body-length-isolated-over-white-.jpg'
+            },
+        ],
+        detail:'Every point along the customer’s journey from research to purchase is important. There is one place, though, where the customer is called upon to make a choice of exceptional consequence.',
+        type:1
     },
     {
         id:2,
-        price:570,
+        price:570.320,
         subtitle:'Rural scenery',
         imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2A88pz_NgDmPPVP6R12WNsg_iLGcajnmJxA&usqp=CAU",
-
+        imgdetail:[
+            {
+                id:1,
+                img:'https://www.ukmodels.co.uk/wp-content/uploads/2016/06/shutterstock_297747434.jpg'
+            },
+            {
+                id:2,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlN1CkKcyXPp_mqhW1t_d26OM9-jCt1ftNHf9wmm_vJVXjE-svQ_BT0WAGI1is2q3jQ1g&usqp=CAU'
+            },
+            {
+                id:3,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT40sT31ScLlS0iiRvSsXm-0KSUyDp0slHJYQiSkMywA22LA1jENpdUkeK4UH9L9TRXp34&usqp=CAU'
+            },
+        ],
+        type:2
     },
     {
         id:3,
-        price:1230,
+        price:1230.0,
         subtitle:'GUCCI DRAGONS',
         imgurl:"https://api.time.com/wp-content/uploads/2018/02/gucci-baby-dragons-game-of-thrones.jpg",
-
+        imgdetail:[
+            {
+                id:1,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv4FHcr_4iSp0meUd1J_8h1wsHCt3nSgNCIS9t0kYk8KS5Y0mn71MktprieZ-BotbD20E&usqp=CAU'
+            },
+            {
+                id:2,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFFO4LJzwKk71DZfpoJSi5TphgfsnNigjVUZzytq8xLgHlTadY6WhfswSqoLJuKRgGJAE&usqp=CAU'
+            },
+            {
+                id:3,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8FmEcpAuB1IiX0qbUSOVZdLAmoJg89LzN_9FfPNGTiPZABLzKXR5PuylTPZSHoYIprdE&usqp=CAU'
+            },
+        ],
+        type:1
     },
     {
         id:4,
-        price:1230,
+        price:1230.0,
         subtitle:'GUCCI SPRING',
         imgurl:"https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2019%2F09%2Fgucci-spring-summer-2020-runway-show-13.jpg?q=75&w=800&cbr=1&fit=max",
-
+        imgdetail:[
+            {
+                id:1,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlssiuzSWXE_If_CPxMZNzTAd_Dr2gEXUXPVSkBewbWaFr5Rj0zi01ODTT8GWE5V8VnF0&usqp=CAU'
+            },
+            {
+                id:2,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjmILTMQe00xTFaPxqTEiE2P1Al46U9IdHdFSpOGmWFioRfNHF6OJ5emG4yph1WL-tSWw&usqp=CAU'
+            },
+            {
+                id:3,
+                img:'https://previews.123rf.com/images/panicattack/panicattack1409/panicattack140900026/31462842-beautiful-woman-in-casual-clothes-thinking-full-body-length-isolated-over-white-.jpg'
+            },
+        ],
+     
+        type:2
     },
     {
         id:5,
         price:1000,
         subtitle:'GUCCI SS20',
         imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRev0OwfV5emx0RQVB9C1M-FrlHGRmpKtsoMjUHIt9Gz_sw6f5kGLP6jx1vW8EeGLNZ6yw&usqp=CAU",
-
+        imgdetail:[
+            {
+                id:1,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgjYseJK6TjdMUqvZy54J_7zAavaiyOhA2smryvVB-qNhkqAUee8cRnNtmIn_eAZmHRYg&usqp=CAU'
+            },
+            {
+                id:2,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBj63wM3ZTCSwMjuQE1BK1p8vTeDwd5vfkEioPhlbGhcnnC_KTdOCPVLUIQVdMugT9OUI&usqp=CAU'
+            },
+            {
+                id:3,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsi5tD47dEH26BcfTwsMMBVLOHSYwTVFd5NsrkvoA6GkuUNZmy1ffDuHdwImHajIB1qjc&usqp=CAU'
+            },
+        ],
+        type:1
     },
     {
         id:6,
         price:1300,
         subtitle:'GUCCI SPRING',
         imgurl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TJTA3yFOK-qPAMO7GhwfqfP2S8CeaEiXr8Fj7Ri7QsSjE-fPfc4TTxRSIQrf2V3dLQY&usqp=CAU",
-
+        imgdetail:[
+            {
+                id:1,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0MfVhsJc0WpAkwvlJF8fhHW9y5j5EtfXyGboYIX0NX-2pQkKXDEjEwWL3Nu-7C414Jw4&usqp=CAU'
+            },
+            {
+                id:2,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHoAN8UrTtvchLtAXr_Lp5KKcbKjxdD_nBub2i0e0OeCvDqvN4U1uqSouMG8Xbdqr69GU&usqp=CAU'
+            },
+            {
+                id:3,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWNS8uP7zRRBv23_uz_FXnUgqoVVWDF-HWuKiNgZHmg1Uf3WuALhZNE7dvBe1Am4ertGQ&usqp=CAU'
+            },
+        ],
+        type:2
     },
     {
         id:7,
         price:550,
         subtitle:'Swiss Designer',
         imgurl:"https://c8.alamy.com/comp/D5W247/a-model-wears-a-creation-by-swiss-designer-albert-kriemler-as-part-D5W247.jpg",
-
+        imgdetail:[
+            {
+                id:1,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJn_k1ZCX2LaN0xKlgxoeUos8LapPTH7LYGhxBXh5oJXNibQqUbHeKRg-vjcyfqAffIsE&usqp=CAU'
+            },
+            {
+                id:2,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpmv7-yV8E_aFrrspff8q64eSZDtAtLjWM3Iegel9_GC6rIXFbFDwmOtS4CfR6JZ2HY-s&usqp=CAU'
+            },
+            {
+                id:3,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWNS8uP7zRRBv23_uz_FXnUgqoVVWDF-HWuKiNgZHmg1Uf3WuALhZNE7dvBe1Am4ertGQ&usqp=CAU'
+            },
+        ],
+        type:1
+    },
+    {
+        id:8,
+        price:523.012,
+        subtitle:'Swiss Designer',
+        imgurl:"https://c8.alamy.com/comp/D5W247/a-model-wears-a-creation-by-swiss-designer-albert-kriemler-as-part-D5W247.jpg",
+        imgdetail:[
+            {
+                id:1,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmmqFBPJNDBrZ2up7k3y-5TYqoxXQftyJQnOqcgBRTNf5x34AsBZc4Nx2YG72x6hl6frA&usqp=CAU'
+            },
+            {
+                id:2,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHGa_8rWJYNmjsRZEopwUuXqcojtkJwslXh3pT3UoDZpPYeqNmGTRVsnRKjdNA3Sy2q4c&usqp=CAU'
+            },
+            {
+                id:3,
+                img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJn_k1ZCX2LaN0xKlgxoeUos8LapPTH7LYGhxBXh5oJXNibQqUbHeKRg-vjcyfqAffIsE&usqp=CAU'
+            },
+        ],
+        type:3
     },
     
 

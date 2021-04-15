@@ -53,7 +53,7 @@ const Home = () => {
     <View style={styles.container}>
     {/* top */}
       <View style={styles.header}>
-      <TouchableOpacity style={{width:'10%'}}>
+      <TouchableOpacity style={{width:'10%'}} onPress={()=>navigation.openDrawer()}>
       <AntDesign name="menuunfold" size={30} color={"#848484"} />
       </TouchableOpacity>
       <View style={{width:'90%'}}>

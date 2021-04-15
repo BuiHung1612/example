@@ -29,6 +29,9 @@ const Cart = ({navigation}) => {
   }, []);
   let total = 0;
   let numberItem = 0;
+
+ 
+
   return (
     <View style={styles.container}>
       <View style={styles.header}>

@@ -19,12 +19,13 @@ const CategoryFlatList = props => {
     console.log('123')
   }
   return (
-    <View style={{height: 400, width: '45%', marginTop: 10, marginLeft: 10}}>
+    <View style={{height: 400, width: '47%', marginTop: 10, marginLeft: 10}}>
       <TouchableOpacity
+      style={{}}
         onPress={() => navigation.navigate('Detail', {id: props.item.id})}>
         <Image
           source={{uri: props.item.imgurl}}
-          style={{width: 190, height: 290}}
+          style={{width: 200, height: 290}}
         />
       </TouchableOpacity>
       <View style={styles.product}>
